@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Marine Heatwave 3D
 
-You can use the [editor on GitHub](https://github.com/cse512-18s/marine-heatwave/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Project Lead: Hillary Scannell
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstract
 
-### Markdown
+Marine heatwaves are discrete and extreme warming events in the ocean surface that we can detect using satellite-derived observations of globally gridded (0.25ºx0.25º) daily sea surface temperatures since 1982. There are numerous studies of event-based research that depict a static image or composite of elevated temperatures during an event. The problem with this view is that is does not convey the growth, evolution, or decay of a marine heatwave over time. To address this problem, I propose a design study that will visualize 3-D marine heatwave anomaly isosurfaces in longitude, latitude, and time using Python and JavaScript as foundational coding tools. The design will be animated in time and have rotational functionality to counter possible occlusion. Using this visualization, we can explore some interesting hypotheses about marine heatwave patterns. In particular, do marine heatwaves develop instantaneously over a large area or do they slowly progress locally? It would be interesting to tease out these characteristics through this visualization design and pair it with what is known about the formation mechanisms from the event-based literature.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cse512-18s/marine-heatwave/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Visualization: 
+[https://cse512-18s.github.io/marine-heatwave](https://cse512-18s.github.io/marine-heatwave)
