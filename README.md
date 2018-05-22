@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="global_sst.png" alt="hi" class="inline"/>
-</p>
+</p>  
 
 ### Abstract
 
