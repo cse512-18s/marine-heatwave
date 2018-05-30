@@ -1,0 +1,21 @@
+# Written by Hillary Scannell
+# 25 May 2018
+# University of Washington, School of Oceanography
+
+# This code uses "wget". This can be installed with homebrew using the following commands
+	# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+	# brew install wget
+# wget stands for "web get" and downloads files to your computer conveniently over a network
+# This code automatically downloads (and overwrites) files to your working directory in a new directory called ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/
+# To run this code from your terminal, type "./webgetOISSTnetCDF.txt"
+
+
+echo web get NOAA daily mean OISST version 2 netCDF 1981-2018
+
+
+for i in {1994..2018}; do
+	echo ${i}
+	wget -r ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/sst.day.mean.${i}.v2.nc 	
+done
+
+echo done!
