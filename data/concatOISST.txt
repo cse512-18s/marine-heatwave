@@ -1,0 +1,30 @@
+# Written by Hillary Scannell
+# 25 May 2018
+# University of Washington, School of Oceanography
+
+# This code concatenates OISST netCDF files along the time dimension and subsamples SST in latitude and longitude
+# Go to directory where OISST data was downloaded
+# cd /Users/Scannell/Desktop/marine-heatwave/data/ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres
+# To run this code from your terminal, type "(path where this file lives) + /concatOISST.txt"
+
+# unnecessary code?
+	#for fl in `ls *.nc` ; do
+	#    ncks -O --mk_rec_dmn time ${fl} ${fl} # makes TIME a record dimension and overwrite output file	
+	#done
+
+
+echo start! 
+
+#files = 'ls sst.day.mean.*.v2.nc'
+#echo $files
+
+ncrcat *.v2.nc OISSTv2.1981.2018.nc  # record (time) concatenation
+#ncrcat -O $files OISSTv2.1981.2018.nc
+
+
+#for fl in `ls *.nc` ; do
+ncks -O --mk_rec_dmn time -v sst -d lon,125.0,255.0 -d lat,20.0,65.0 OISSTv2.1981.2018.nc OISSTv2.NP.1981.2018.nc 	
+#done
+
+
+echo done!
