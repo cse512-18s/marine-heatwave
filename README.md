@@ -1,5 +1,6 @@
 
-# Marine Heatwave
+# Marine Heatwave 
+
 ### Visualizing Ocean Temperature Extremes
 
 Hillary Scannell, School of Oceanography, University of Washington
@@ -13,7 +14,7 @@ Hillary Scannell, School of Oceanography, University of Washington
 
 ### Abstract
 
-Marine heatwaves are discrete and extreme warming events in the ocean surface that we can detect using satellite-derived observations of globally gridded (0.25ºx0.25º) daily sea surface temperatures since 1982. There are numerous studies of event-based research that depict a static image or composite of elevated temperatures during an event. The problem with this view is that is does not convey the growth, evolution, or decay of a marine heatwave over time. To address this problem, I propose a design study that will visualize 3-D marine heatwave anomaly isosurfaces in longitude, latitude, and time using Python and JavaScript as foundational coding tools. The design will be animated in time and have rotational functionality to counter possible occlusion. Using this visualization, we can explore some interesting hypotheses about marine heatwave patterns. In particular, do marine heatwaves develop instantaneously over a large area or do they slowly progress locally? It would be interesting to tease out these characteristics through this visualization design and pair it with what is known about the formation mechanisms from the event-based literature.
+Marine heatwaves are discrete and extreme warming events in the ocean surface that we can detect using satellite-derived observations of globally gridded daily sea surface temperatures (SSTs) since 1981. There are numerous studies of event-based research that depict a static image or composite of elevated temperatures during an event. The problem with this view is that is does not convey the growth, evolution, or decay of a marine heatwave over time. This motivates the development of marine heatwave visualizations to better understand their evolution and movement through animation. I approached this probelm by (1) modifying a classification algorithm that extracts marine heatwave event information from daily SST observations, (2) computing summary metrics over the entire data record (1981-2018) and (3) creating an animation of marine heatwave SST anomalies during the northeast Pacific event.Marine heatwaves are mapped to a Plate Carrée projection centered in the North Pacific and are color encoded according to the intensity of SST anomalies [ºC] above the 1988-2017 climatology. Data rames are animated using Matplotlib and rendered as an interactive [JavaScript widget](https://cse512-18s.github.io/marine-heatwave/images/mhw.html). Using animation to track the Pacific marine heatwave in 2014 helps tell a story about this event. Anomalies >2ºC were confined offshore early in the year and spread to the U.S. West Coast by late spring where the intensity was less severe. Anomalies were likely brought to the coast by seasonal spring storms and cooled via coastal upwelling. By late summer, the pattern becomes canonical extending westward and reaching further north and south with the most extreme temperatures occurring near the Bering Sea and surrounding Baja California. 
 
 
 ### Data Acquition
@@ -46,3 +47,12 @@ This module contains two Jupyter Notebooks on the GitHub Repo.  Instructions on 
 | ------ | ------ |
 | MHWclassify | [marine-heatwave/data/MHWclassify.ipynb](https://github.com/cse512-18s/marine-heatwave/blob/master/data/MHWclassify.ipynb) |
 | MHW_NP_animate | [marine-heatwave/data/MHW_NP_animate.ipynb](https://github.com/cse512-18s/marine-heatwave/blob/master/data/MHW_NP_animate.ipynb) |
+
+
+
+
+
+
+<p align="right">
+  <img src="images/UW_CSE_logo.png" width="40%" height="40%" alt="hi" class="inline"/>
+</p> 
