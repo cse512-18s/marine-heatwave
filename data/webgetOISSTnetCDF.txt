@@ -13,7 +13,7 @@
 echo web get NOAA daily mean OISST version 2 netCDF 1981-2018
 
 
-for i in {1994..2018}; do
+for i in {1981..2018}; do
 	echo ${i}
 	wget -r ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/sst.day.mean.${i}.v2.nc 	
 done
