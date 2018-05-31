@@ -3,7 +3,7 @@
 **Project Lead:** *Hillary Scannell, School of Oceanography*
 
 <p align="center">
-  <img src="images/global_sst.png" alt="hi" class="inline"/>
+  <img src="images/mhw_anom_2014_02_01.png" alt="hi" class="inline"/>
 </p>  
 
 ### Abstract
