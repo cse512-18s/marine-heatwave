@@ -1,6 +1,7 @@
-## Marine Heatwave
+# Marine Heatwave
+#### Visualizing Ocean Temperature Extremes
 
-**Project Lead:** *Hillary Scannell, School of Oceanography*
+Hillary Scannell, School of Oceanography
 
 <p align="center">
   <img src="images/mhw_anom_2014_02_01.png" alt="hi" class="inline"/>
