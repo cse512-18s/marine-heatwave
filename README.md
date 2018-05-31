@@ -1,4 +1,5 @@
-## Marine Heatwave 3D
+## Marine Heatwave
+
 **Project Lead:** *Hillary Scannell, School of Oceanography*
 
 <p align="center">
