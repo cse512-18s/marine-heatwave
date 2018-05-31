@@ -46,3 +46,12 @@ This module contains two Jupyter Notebooks on the GitHub Repo.  Instructions on 
 | ------ | ------ |
 | MHWclassify | [marine-heatwave/data/MHWclassify.ipynb](https://github.com/cse512-18s/marine-heatwave/blob/master/data/MHWclassify.ipynb) |
 | MHW_NP_animate | [marine-heatwave/data/MHW_NP_animate.ipynb](https://github.com/cse512-18s/marine-heatwave/blob/master/data/MHW_NP_animate.ipynb) |
+
+
+
+
+
+
+<p align="right">
+  <img src="images/UW_CSE_logo.png" width="30%" height="30%" alt="hi" class="inline"/>
+</p> 
