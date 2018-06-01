@@ -15,6 +15,7 @@ Marine heatwaves are discrete and extreme warming events in the ocean surface th
 
 #### [Link to Animation](https://cse512-18s.github.io/marine-heatwave/images/mhw.html) (may take a few minutes to load)
 #### [Link to Poster](final/poster.pdf)
+#### [Link to Paper](https://github.com/cse512-18s/marine-heatwave/blob/master/final/paper.pdf)
 * * *
 ### What is a Marine Heatwave?
 
