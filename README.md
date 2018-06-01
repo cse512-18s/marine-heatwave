@@ -23,7 +23,7 @@ Marine heatwaves are extreme and often prolonged warming events in sea surface t
 <p align="center">
   <img src="images/definingMHW.png" width="60%" height="60%" alt="hi" class="inline"/>
 </p>
-To study the impacts of these extreme events, marine heatwaves are defined relative to their temperature intensity using a 90th percentile threshold calculated over on a 30-year climatology (1988-2017). An event is considered a marine heatwave when at least 5 continuous days are above this threshold with no more than a 2-day gap in between. <br> 
+To study the impacts of these extreme events, marine heatwaves are defined relative to their temperature intensity using a 90th percentile threshold calculated over on a 30-year climatology (1988-2017). An event is considered a marine heatwave when at least 5 continuous days are above this threshold with no more than a 2-day gap in between. <br></br>
 
 **Reference**: Hobday, A. J., L. V. Alexander, S. E. Perkins, D. A. Smale, S. C. Straub, J. Benthuysen, M. T. Burrows, M. G. Donat, M. Feng, N. J. Holbrook, P. J. Moore, E. C. J. Oliver, H. A. Scannell, A. Sen Gupta and T. Wernberg (2016), A hierarchical approach to defining marine heatwaves, _Prog. Oceanogr._, **141**: 227-238, [doi:10.1016/j.pocean.2015.12.014](https://www.sciencedirect.com/science/article/pii/S0079661116000057)
 
